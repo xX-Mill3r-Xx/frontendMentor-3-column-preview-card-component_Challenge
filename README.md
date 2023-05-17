@@ -8,7 +8,7 @@ O desafio consistia em criar um layout de três colunas que exibisse informaçõ
 
 ## Preview do Desafio Concluído
 
-Você pode conferir a versão final do desafio hospedada [aqui](link para a hospedagem do desafio).
+Você pode conferir a versão final do desafio hospedada [aqui](https://xx-mill3r-xx.github.io/frontendMentor-3-column-preview-card-component_Challenge/).
 
 ## Tecnologias Utilizadas
 
