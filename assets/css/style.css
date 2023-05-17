@@ -1,0 +1,130 @@
+/*font-family: 'Big Shoulders Display', cursive;*/
+/*font-family: 'Lexend Deca', sans-serif;*/
+
+:root {
+    /* Colors */
+    /*Primary */
+    --Bright_orange: hsl(31, 77%, 52%);
+    --Dark_cyan: hsl(184, 100%, 22%);
+    --Very_dark_cyan: hsl(179, 100%, 13%);
+
+    /*Neutral */
+    --Transparent_white_paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very_light_gray_background_headings_buttons: hsl(0, 0%, 95%);
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body {
+    background-color: var(--Very_light_gray_background_headings_buttons);
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    width: 770px;
+    height: 460px;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    color: var(--Very_light_gray_background_headings_buttons);
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.text {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Very_light_gray_background_headings_buttons);
+    padding-top: 36px;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.card button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 120px;
+}
+
+.btn {
+    font-family: 'Lexend Deca', sans-serif;
+    max-width: 100%;
+    width: 120px;
+    height: 3em;
+    border: none;
+    border-radius: 36px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card .sedans {
+    background-color: var(--Bright_orange);
+    padding: 36px;
+    border-radius: 9px 0 0 9px;
+}
+
+.sedans .btn {
+    color: var(--Bright_orange);
+}
+
+.sedans .btn:hover{
+    background-color: var(--Bright_orange);
+}
+
+.card .suvs {
+    background-color: var(--Dark_cyan);
+    padding: 36px;
+}
+
+.suvs .btn {
+    color: var(--Dark_cyan);
+}
+
+.suvs .btn:hover{
+    background-color: var(--Dark_cyan);
+}
+
+.card .luxury {
+    background-color: var(--Very_dark_cyan);
+    padding: 36px;
+    border-radius: 0 9px 9px 0;
+}
+
+.luxury .btn {
+    color: var(--Very_dark_cyan);
+}
+
+.luxury .btn:hover{
+    background-color: var(--Very_dark_cyan);
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: var(--Very_light_gray_background_headings_buttons);
+    border: 1px solid var(--Very_light_gray_background_headings_buttons);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 0.6em;
+}

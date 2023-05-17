@@ -1,0 +1,15 @@
+@media (max-width: 375px) {
+    .card {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto;
+        margin: 24px;
+    }
+
+    .sedans,
+    .suvs,
+    .luxury {
+        border-radius: 9px;
+        padding: 24px;
+    }
+}
